@@ -8,6 +8,7 @@ export function ToDoForm({ onSubmit }) {
       <TextInput
         required
         placeholder="Digite o item que deseja adicionar"
+        name="description"
       ></TextInput>
       <Button>Salvar Item</Button>
     </form>
